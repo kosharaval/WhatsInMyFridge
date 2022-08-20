@@ -1,0 +1,58 @@
+{
+  "name": "WhatsInMyFridge",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.14",
+    "@react-native-firebase/app": "^13.1.0",
+    "@react-native-firebase/auth": "^13.1.0",
+    "@react-native-firebase/firestore": "^13.1.0",
+    "@react-native-firebase/storage": "^13.1.0",
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "elint": "^2.0.1",
+    "react": "17.0.2",
+    "react-native": "^0.66.3",
+    "react-native-action-button": "^2.8.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-crop-picker": "^0.36.4",
+    "react-native-onboarding-swiper": "^1.1.4",
+    "react-native-paper": "^4.10.1",
+    "react-native-reanimated": "^2.2.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-share": "^7.3.2",
+    "react-native-swipe-list-view": "^3.2.9",
+    "react-native-tesseract-ocr": "^2.0.3",
+    "react-native-vector-icons": "^9.0.0",
+    "react-navigation-stack": "^2.10.4",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "save": "^2.4.0",
+    "styled-components": "^5.3.3",
+    "tesseract.js": "^2.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.2",
+    "eslint": "^8.2.0",
+    "jest": "^27.4.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
